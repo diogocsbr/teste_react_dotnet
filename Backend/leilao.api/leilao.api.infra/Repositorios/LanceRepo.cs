@@ -94,12 +94,25 @@ namespace leilao.api.infra.Repositorios
 
             using (var conn = new SqlConnection(StringConexao))
             {
-                lance = await conn.QueryFirstAsync<Lance>(query, param: parametros, commandType: System.Data.CommandType.Text);
+                lance = await conn.QueryFirstOrDefaultAsync<Lance>(query, param: parametros, commandType: System.Data.CommandType.Text);
             }
 
             return lance;
         }
 
+        public async Task<decimal> SelecionarMaiorLance(int produtoID)
+        {
+            decimal lance = 0;
+            string query = "select max(valor) from lance where produto_id = @produtoid";
+            DynamicParameters parametros = new DynamicParameters();
+            parametros.Add("produtoid", produtoID);
 
+            using (var conn = new SqlConnection(StringConexao))
+            {
+                lance = await conn.QueryFirstOrDefaultAsync<decimal>(query, param: parametros, commandType: System.Data.CommandType.Text);
+            }
+
+            return lance;
+        }
     }
 }

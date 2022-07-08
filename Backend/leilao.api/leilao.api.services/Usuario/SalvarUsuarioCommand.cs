@@ -14,11 +14,15 @@ namespace leilao.api.services.Usuario
     {
         public int ? id { get; set; }
 
-        [Required(ErrorMessage = "informe o nome do usuário")]
+        [Required(ErrorMessage = "Informe o Nome")]
         public string nome { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Informe o Usuário")] 
+        public string usuario { get; set; } = string.Empty;
 
+        [Required(ErrorMessage = "Informe a Senha")] 
         public string? senha { get; set; }
 
+        [Required(ErrorMessage = "Informe o Idade")]
         public int idade { get; set; }
 
         [JsonIgnore]

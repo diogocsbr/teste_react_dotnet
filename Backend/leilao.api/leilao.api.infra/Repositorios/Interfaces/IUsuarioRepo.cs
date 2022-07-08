@@ -11,5 +11,6 @@ namespace leilao.api.infra.Repositorios.Interfaces
 {
     public interface IUsuarioRepo : IExecQuery<Usuario>
     {
+        Task<Usuario> SelecionarAsync(string usuario);
     }
 }

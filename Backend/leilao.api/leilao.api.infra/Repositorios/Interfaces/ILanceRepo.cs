@@ -11,5 +11,6 @@ namespace leilao.api.infra.Repositorios.Interfaces
 {
     public interface ILanceRepo : IExecQuery<Lance>
     {
+        public Task<decimal> SelecionarMaiorLance(int produtoID);
     }
 }

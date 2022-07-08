@@ -82,7 +82,7 @@ namespace leilao.api.infra.Repositorios
 
             using (var conn = new SqlConnection(StringConexao))
             {
-                produto = await conn.QueryFirstAsync<Produto>(query, param: parametros, commandType: System.Data.CommandType.Text);
+                produto = await conn.QueryFirstOrDefaultAsync<Produto>(query, param: parametros, commandType: System.Data.CommandType.Text);
             }
 
             return produto;

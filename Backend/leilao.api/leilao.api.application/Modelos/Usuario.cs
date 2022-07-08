@@ -13,7 +13,7 @@ namespace leilao.api.domain.Modelos
         public int id { get; set; }
 
         public string nome { get; set; } = string.Empty;
-
+        public string usuario { get; set; } = string.Empty;
         //TODO: colocar regex para senha
         public string ? senha { get; set; }
         public int idade { get; set; }

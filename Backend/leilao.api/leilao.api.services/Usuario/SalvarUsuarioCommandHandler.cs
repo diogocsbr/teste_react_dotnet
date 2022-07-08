@@ -27,7 +27,10 @@ namespace leilao.api.services.Usuario
             int resultado = 0;
             IUsuarioRepo repo = new UsuarioRepo(config.GetConnectionString("BancoLeilao"));
 
-            var usuario = new domain.Modelos.Usuario() { nome = request.nome, senha = request.senha, idade = request.idade };
+            var usuario = new domain.Modelos.Usuario() { 
+                nome = request.nome, 
+                senha = request.senha, 
+                idade = request.idade, usuario = request.usuario };
 
             if (!request.id.HasValue || request.id == 0)
             {

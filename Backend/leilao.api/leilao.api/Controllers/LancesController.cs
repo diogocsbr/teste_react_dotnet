@@ -24,7 +24,17 @@ namespace leilao.api.Controllers
         [HttpPost("salvar")]
         public async Task<IActionResult> Salvar([FromBody] SalvarLanceCommand model)
         {
-            var resposta = await mediator.Send(model);
+            dynamic resposta;
+
+            try
+            {
+                resposta = await mediator.Send(model);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
             return Ok(resposta);
         }
 

@@ -66,3 +66,4 @@ E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api\bin\D
 E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api\bin\Debug\net6.0\leilao.api.services.pdb
 E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api\bin\Debug\net6.0\leilao.api.domain.pdb
 E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api\bin\Debug\net6.0\leilao.api.infra.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

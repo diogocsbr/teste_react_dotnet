@@ -2,11 +2,13 @@
 
 using MediatR;
 
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace leilao.api.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class ProdutosController : ControllerBase
@@ -18,6 +20,8 @@ namespace leilao.api.Controllers
             mediator = _mediator;
         }
 
+
+        [Authorize(Roles = "adm")]
         /// <summary>
         /// Método usado para Incluir e Alterar o Produto
         /// </summary>
@@ -29,6 +33,8 @@ namespace leilao.api.Controllers
             return Ok(resposta);
         }
 
+
+        [Authorize(Roles = "adm,cli")]
         /// <summary>
         /// Lista os Produtos
         /// </summary>
@@ -41,6 +47,8 @@ namespace leilao.api.Controllers
             return Ok(resposta);
         }
 
+
+        [Authorize(Roles = "adm")]
         /// <summary>
         /// Seleciona o Produto
         /// </summary>

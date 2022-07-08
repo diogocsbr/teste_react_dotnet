@@ -27,13 +27,14 @@ namespace leilao.api.infra.Repositorios
         public async Task<int> AtualizarAsync(Usuario entidade)
         {
             int linhas = 0;
-            string query = "update usuario set nome = @nome, senha = @senha, idade = @idade " +
+            string query = "update usuario set nome = @nome, senha = @senha, idade = @idade, usuario = @usuario " +
                 " where id = @id";
 
             DynamicParameters parametros = new DynamicParameters();
             parametros.Add("nome", entidade.nome);
             parametros.Add("senha", entidade.senha);
             parametros.Add("idade", entidade.idade);
+            parametros.Add("usuario", entidade.usuario);
             parametros.Add("id", entidade.id);
 
             using (var conn = new SqlConnection(StringConexao))
@@ -47,14 +48,14 @@ namespace leilao.api.infra.Repositorios
         public async Task<int> IncluirAsync(Usuario entidade)
         {
             int linhas = 0;
-            string query = "insert into usuario (nome, senha, administrador, idade) values (@nome, @senha, @administrador, @idade)";
+            string query = "insert into usuario (nome, senha, administrador, idade, usuario) values (@nome, @senha, @administrador, @idade, @usuario)";
 
             DynamicParameters parametros = new DynamicParameters();
             parametros.Add("nome", entidade.nome);
             parametros.Add("senha", entidade.senha);
             parametros.Add("administrador", entidade.administrador);
             parametros.Add("idade", entidade.idade);
-
+            parametros.Add("usuario", entidade.usuario);
 
             using (var conn = new SqlConnection(StringConexao))
             {
@@ -67,7 +68,11 @@ namespace leilao.api.infra.Repositorios
         public async Task<IEnumerable<Usuario>> ListarAsync(Usuario filtro)
         {
             IEnumerable<Usuario> usuarios = new List<Usuario>();
-            string query = "select * from usuario";
+            string query = @"select [id]
+                              ,[nome]
+                              ,[usuario]
+                              ,[idade]
+                              ,[administrador] from usuario";
             DynamicParameters parametros = new DynamicParameters();
             //parametros.Add("id", id);
 
@@ -82,13 +87,37 @@ namespace leilao.api.infra.Repositorios
         public async Task<Usuario> SelecionarAsync(int id)
         {
             Usuario usuario = new Usuario();
-            string query = "select * from usuario where id = @id";
+            string query = @"select [id]
+                              ,[nome]
+                              ,[usuario]
+                              ,[idade]
+                              ,[administrador] from usuario where id = @id";
             DynamicParameters parametros = new DynamicParameters();
             parametros.Add("id", id);
 
             using (var conn = new SqlConnection(StringConexao))
             {
-                usuario = await conn.QueryFirstAsync<Usuario>(query, param: parametros, commandType: System.Data.CommandType.Text);
+                usuario = await conn.QueryFirstOrDefaultAsync<Usuario>(query, param: parametros, commandType: System.Data.CommandType.Text);
+            }
+
+            return usuario;
+        }
+
+        public async Task<Usuario> SelecionarAsync(string usuariocampo)
+        {
+            Usuario usuario = new Usuario();
+            string query = @"select [id]
+                              ,[nome]
+                              ,[usuario]
+                              ,[senha]
+                              ,[idade]
+                              ,[administrador] from usuario where usuario = @usuariocampo";
+            DynamicParameters parametros = new DynamicParameters();
+            parametros.Add("usuariocampo", usuariocampo);
+
+            using (var conn = new SqlConnection(StringConexao))
+            {
+                usuario = await conn.QueryFirstOrDefaultAsync<Usuario>(query, param: parametros, commandType: System.Data.CommandType.Text);
             }
 
             return usuario;
