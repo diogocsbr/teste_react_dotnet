@@ -1,0 +1,17 @@
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\bin\Debug\net6.0\leilao.api.services.deps.json
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\bin\Debug\net6.0\leilao.api.services.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\bin\Debug\net6.0\leilao.api.services.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\bin\Debug\net6.0\leilao.api.domain.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\bin\Debug\net6.0\leilao.api.infra.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\bin\Debug\net6.0\leilao.api.domain.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\bin\Debug\net6.0\leilao.api.infra.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\leilao.api.services.csproj.AssemblyReference.cache
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\leilao.api.services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\leilao.api.services.AssemblyInfoInputs.cache
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\leilao.api.services.AssemblyInfo.cs
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\leilao.api.services.csproj.CoreCompileInputs.cache
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\leilao.api.services.csproj.CopyComplete
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\leilao.api.services.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\refint\leilao.api.services.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\leilao.api.services.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.services\obj\Debug\net6.0\ref\leilao.api.services.dll

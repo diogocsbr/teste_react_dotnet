@@ -1,0 +1,15 @@
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\bin\Debug\net6.0\leilao.api.infra.deps.json
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\bin\Debug\net6.0\leilao.api.infra.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\bin\Debug\net6.0\leilao.api.infra.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\bin\Debug\net6.0\leilao.api.domain.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\bin\Debug\net6.0\leilao.api.domain.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\leilao.api.infra.csproj.AssemblyReference.cache
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\leilao.api.infra.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\leilao.api.infra.AssemblyInfoInputs.cache
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\leilao.api.infra.AssemblyInfo.cs
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\leilao.api.infra.csproj.CoreCompileInputs.cache
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\leilao.api.infra.csproj.CopyComplete
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\leilao.api.infra.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\refint\leilao.api.infra.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\leilao.api.infra.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.infra\obj\Debug\net6.0\ref\leilao.api.infra.dll

@@ -1,0 +1,12 @@
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\bin\Debug\net6.0\leilao.api.domain.deps.json
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\bin\Debug\net6.0\leilao.api.domain.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\bin\Debug\net6.0\leilao.api.domain.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\obj\Debug\net6.0\leilao.api.domain.csproj.AssemblyReference.cache
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\obj\Debug\net6.0\leilao.api.domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\obj\Debug\net6.0\leilao.api.domain.AssemblyInfoInputs.cache
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\obj\Debug\net6.0\leilao.api.domain.AssemblyInfo.cs
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\obj\Debug\net6.0\leilao.api.domain.csproj.CoreCompileInputs.cache
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\obj\Debug\net6.0\leilao.api.domain.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\obj\Debug\net6.0\refint\leilao.api.domain.dll
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\obj\Debug\net6.0\leilao.api.domain.pdb
+E:\Projetos\ExemploNovelo\teste_react_dotnet\Backend\leilao.api\leilao.api.application\obj\Debug\net6.0\ref\leilao.api.domain.dll
