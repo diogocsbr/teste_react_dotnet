@@ -1,6 +1,24 @@
 # teste_react_dotnet
 
+*informações para rodar o banco*
 
+__ criar o banco chamado 'teste_leilao' (sem as aspas)
+__ Rodar os scripts de forma sequencial, localizados na pasta 'script' na Raiz do projeto
+____ Se o script script_02_criacao_admin.sql for rodado sem alterações e com sucesso, o acesso a api será através do usuário: admin e senha: admin
+
+
+*informações da Api*
+
+__ Api conta com a segurança via Json Web Token
+____  Usuário admin poderá criar produtos, os outros usuários poderão simplesmente visualizar os produtos
+
+__ Api está estruturada com CQRS
+__ As regras estão na camada services
+
+
+*FrontEnd*
+
+__ Não foi desenvolvido, motivo arquivo txt na pasta Frontend
 
 *Observações*
 
